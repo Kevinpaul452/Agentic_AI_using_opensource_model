@@ -46,7 +46,7 @@ Final Summary
    pip install langchain langchain-core langchain-community langchain-openrouter beautifulsoup4 requests
    ```
 3. Set API Key
-   ``` json
+   ```python
    import os
    os.environ["OPENROUTER_API_KEY"] = "your_api_key"
    ```
