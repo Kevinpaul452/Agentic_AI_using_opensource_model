@@ -1,5 +1,4 @@
-# Agentic_AI_using_opensource_model
-### Agentic Web Summarizer using LangChain and OpenRouter
+# Agentic Web Summarizer using LangChain and OpenRouter
 
 ## Overview
 
@@ -43,11 +42,11 @@ Final Summary
 
 ## Setup
 1. Install dependencies
-   """
+   ``` json
    pip install langchain langchain-core langchain-community langchain-openrouter beautifulsoup4 requests
-   """
+   ```
 3. Set API Key
-   """
+   ``` json
    import os
    os.environ["OPENROUTER_API_KEY"] = "your_api_key"
-   """
+   ```
