@@ -50,3 +50,12 @@ Final Summary
    import os
    os.environ["OPENROUTER_API_KEY"] = "your_api_key"
    ```
+## Key Learnings
+
+* Agent reliability depends heavily on model choice
+
+* Tool chaining is the core of agentic AI
+
+* Chunking is essential for long-document processing
+
+* Not all models support agent workflows effectively
