@@ -42,7 +42,7 @@ Final Summary
 
 ## Setup
 1. Install dependencies
-   ``` json
+   ```python
    pip install langchain langchain-core langchain-community langchain-openrouter beautifulsoup4 requests
    ```
 3. Set API Key
