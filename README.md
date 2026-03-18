@@ -25,32 +25,29 @@ Tool 2: summarize_text
    ↓
 Final Summary
 
-The agent decides which tools to call
+* The agent decides which tools to call
 
-Tools are implemented as Python functions
+* Tools are implemented as Python functions
 
-The LLM orchestrates the workflow using reasoning + tool-calling
+* The LLM orchestrates the workflow using reasoning + tool-calling
 
-⚙️ Tech Stack
+## Tech Stack
 
-LangChain – Agent framework and tool orchestration
+1. LangChain – Agent framework and tool orchestration
 
-OpenRouter – LLM provider
+2. OpenRouter – LLM provider
 
-BeautifulSoup – Web scraping
+3. BeautifulSoup – Web scraping
 
-Python – Core implementation
+4. Python – Core implementation
 
-🚀 Features
-
-✅ Agent-based tool execution
-
-✅ Dynamic tool selection (ReAct-style reasoning)
-
-✅ Web content extraction
-
-✅ Chunk-based summarization
-
-✅ Clean structured output
-
-✅ Debuggable execution trace (messages)
+## Setup
+1. Install dependencies
+   """
+   pip install langchain langchain-core langchain-community langchain-openrouter beautifulsoup4 requests
+   """
+3. Set API Key
+   """
+   import os
+   os.environ["OPENROUTER_API_KEY"] = "your_api_key"
+   """
